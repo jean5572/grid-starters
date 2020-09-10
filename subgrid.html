@@ -36,12 +36,8 @@
             background-color: aquamarine;
             display: grid;
             grid-gap: 10px;
-            grid-template-columns: repeat(4, 1fr);
-        }
-
-        .item-c {
-            grid-area: footer;
-            background-color: bisque;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            padding: 10px;
         }
 
         .item-d {
@@ -50,7 +46,7 @@
         }
 
         article {
-            margin: 10px;
+
             background-color: dimgrey;
         }
 
